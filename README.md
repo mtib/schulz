@@ -1,0 +1,2 @@
+# schulz
+Schulzeitung Backbone
