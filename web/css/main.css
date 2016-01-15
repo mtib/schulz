@@ -15,11 +15,12 @@ div#header{
 }
 div#navigator{
     text-align: center;
-    background-color: #bbb;
+    background-color: rgb(40, 17, 13);
+    padding: .5em 1em .5em 1em;
 }
 div#navigator a{
-    background-color: #bbb;
-    color: black;
+    background-color: rgb(40, 17, 13);
+    color: white;
     text-decoration: none;
     padding: .5em 1em .5em 1em;
 }
@@ -33,12 +34,14 @@ div#container{
     padding: 1em;
 }
 div#container p{
-    padding: .7em;
+    padding: .4em .7em 1.4em .7em;
     color: #311;
 }
 
 
 
 @media (max-width: 1000px){
-
+    div#container{
+        width: 100%;
+    }
 }
