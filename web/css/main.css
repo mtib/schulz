@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+div#header{
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-image: linear-gradient(120deg, #d76, #e94);
+    font-size: 3em;
+}
+div#navigator{
+    text-align: center;
+    background-color: #bbb;
+}
+div#navigator a{
+    background-color: #bbb;
+    color: black;
+    text-decoration: none;
+    padding: .5em 1em .5em 1em;
+}
+div#navigator a:hover{
+    background-color: #f00;
+    color: white;
+}
+div#container{
+    margin: auto;
+    max-width: 1440px;
+    padding: 1em;
+}
+div#container p{
+    padding: .7em;
+    color: #311;
+}
+
+
+
+@media (max-width: 1000px){
+
+}
