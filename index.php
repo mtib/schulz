@@ -10,7 +10,7 @@
     </head>
     <body>
         <div id="header">
-            Freie Schülerzeitung
+            <span id="headertext">Freie Schülerzeitung</span>
         </div>
         <div id="navigator">
             <a href="/index.php" class="current">Home</a><a href="/blog">Blog</a><a href="/about">Über Uns</a><a href="/impressum">Impressum</a>
