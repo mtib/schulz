@@ -26,7 +26,6 @@ div#navigator a{
 }
 div#navigator a:hover{
     background-color: #f00;
-    color: white;
 }
 div#container{
     margin: auto;
@@ -34,14 +33,28 @@ div#container{
     padding: 1em;
 }
 div#container p{
-    padding: .4em .7em 1.4em .7em;
+    padding: .4em .4em 1.4em .7em;
     color: #311;
 }
-
-
+a.current{
+    color: #aaa!important;
+}
+a{
+    color: #f31;
+    text-decoration: none;
+}
+table td{
+    padding: .2em .4em .2em .4em;
+}
 
 @media (max-width: 1000px){
-    div#container{
-        width: 100%;
+}
+
+@media (max-width: 500px){
+    div#header{
+        font-size: 2.5em;
+    }
+    div#navigator a{
+        padding: .3em;
     }
 }

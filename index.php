@@ -13,16 +13,16 @@
             Freie Schülerzeitung
         </div>
         <div id="navigator">
-            <a href="#">Blog</a><a href="#">Über Uns</a><a href="#">Impressum</a>
+            <a href="/index.php" class="current">Home</a><a href="/blog">Blog</a><a href="/about">Über Uns</a><a href="/impressum">Impressum</a>
         </div>
         <div id="container">
-            <h2>Eintrag 2</h2>
+            <h2>Wilkommen</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <h2>Eintrag 1</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Willkommen auf der Hompage der freien Schülerzeitung Kühlungsborns.
+                Unser Ziel ist es euch so gut wie möglich zu Informieren was vor und hinter den
+                Kulissen des Schulzentrums alles vorgeht. <br><br>
+                Wenn ihr uns unterstützen wollt schreibt uns an <a href="mailto:info@tibyte.net?subject=Schülerzeitung">info@tibyte.net</a>
+                <!-- Email noch ändern -->
             </p>
         </div>
     </body>
