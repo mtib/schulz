@@ -1,13 +1,8 @@
-<?
-
-?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Freie Schülerzeitung</title>
-        <link rel="stylesheet" href="web/css/main.css" charset="utf-8">
-    </head>
+<?php
+    include_once("web/parts/head.php")
+?>
     <body>
         <div id="header">
             <span id="headertext">Freie Schülerzeitung</span>
